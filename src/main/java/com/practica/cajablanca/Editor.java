@@ -32,7 +32,7 @@ public class Editor {
 
 	/**
 	 * 
-	 * @param linea
+	 * param linea
 	 * @return la lista correspondiente a la línea pasada como parámetro
 	 * @throws EmptyCollectionException si el editor está vacío
 	 * @throwsSi                       el número de línea es incorrecta lanza
