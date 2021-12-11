@@ -14,10 +14,10 @@ public class PruebaSustPalabra {
         Editor e2 = new Editor();
         Editor e3 = new Editor();
         Editor e4 = new Editor();
-        e1.leerFichero("D:\\VyV\\pruebablanca.txt");
-        e2.leerFichero("D:\\VyV\\pruebablanca2.txt");
-        e3.leerFichero("D:\\VyV\\pruebablanca3.txt");
-        e4.leerFichero("D:\\VyV\\pruebablanca4.txt");
+        e1.leerFichero("vacio.txt");
+        e2.leerFichero("sustpalabra1.txt");
+        e3.leerFichero("sustpalabra2.txt");
+        e4.leerFichero("sustpalabra3.txt");
 
         e1.sustituirPalabra("Hola","Adios");
         assertEquals(0, e1.size());
