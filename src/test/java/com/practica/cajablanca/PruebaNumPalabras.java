@@ -17,7 +17,7 @@ public class PruebaNumPalabras {
         Editor editorFull = new Editor();
         Editor editorEmpty = new Editor();
         String word = "Hola";
-        editorFull.leerFichero("/Users/juancanteromartinez/Desktop/texto.txt");
+        editorFull.leerFichero("texto.txt");
 
         assertThrows(IllegalArgumentException.class,
                 () -> editorFull.numPalabras(0, 1, word), "La predicción de la excepción ha fallado"
