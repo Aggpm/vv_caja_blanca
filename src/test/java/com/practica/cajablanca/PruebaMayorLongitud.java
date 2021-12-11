@@ -18,9 +18,9 @@ public class PruebaMayorLongitud {
         Editor editor1elem = new Editor();
         Editor editor2elem = new Editor();
         Editor editor2elem2 = new Editor();
-        editor1elem.leerFichero("/Users/juancanteromartinez/Desktop/texto1elem.txt");
-        editor2elem.leerFichero("/Users/juancanteromartinez/Desktop/texto2elem.txt");
-        editor2elem2.leerFichero("/Users/juancanteromartinez/Desktop/texto2elem2.txt");
+        editor1elem.leerFichero("texto1elem.txt");
+        editor2elem.leerFichero("texto2elem.txt");
+        editor2elem2.leerFichero("texto2elem2.txt");
 
         assertEquals(null, editorEmpty.mayorLongitud());
         assertEquals("Hooola", editor1elem.mayorLongitud());
