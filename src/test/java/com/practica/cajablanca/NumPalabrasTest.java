@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import java.util.NoSuchElementException;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class PruebaNumPalabras {
+public class NumPalabrasTest {
 
     @Test
     @DisplayName("Test \"numPalabras\"")

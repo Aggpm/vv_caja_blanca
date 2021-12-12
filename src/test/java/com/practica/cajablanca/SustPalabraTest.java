@@ -7,7 +7,7 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.provider.ValueSource;
 import java.util.NoSuchElementException;
 import static org.junit.jupiter.api.Assertions.*;
-public class PruebaSustPalabra {
+public class SustPalabraTest {
     @Test
     public void primero() throws EmptyCollectionException{
         Editor e1 = new Editor();
